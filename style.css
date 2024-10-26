@@ -1,52 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif; /* Define a fonte para Arial, caso não esteja disponível, usará sans-serif */
+    background-color: #f0f0f0; /* Define a cor de fundo para um cinza claro */
+    color: #333; /* Define a cor do texto para um cinza escuro */
+    line-height: 1.6; /* Define o espaçamento entre linhas para 1.6 */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
   }
   
   header {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
+    background-color: #fff; /* Define a cor de fundo do cabeçalho para branco */
+    padding: 20px; /* Define o padding interno para 20 pixels */
+    text-align: center; /* Alinha o texto do cabeçalho para o centro */
   }
   
   h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2.5em; /* Define o tamanho da fonte para o título principal como 2.5 vezes o tamanho da fonte padrão */
+    margin-bottom: 10px; /* Define a margem inferior para 10 pixels */
   }
   
   h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.5em; /* Define o tamanho da fonte para os títulos de seção como 1.5 vezes o tamanho da fonte padrão */
+    margin-bottom: 10px; /* Define a margem inferior para 10 pixels */
   }
   
   nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+    text-align: center; /* Alinha o texto da lista para o centro */
   }
   
   nav li {
-    display: inline-block;
-    margin: 0 10px;
+    display: inline-block; /* Define os itens da lista como blocos em linha, permitindo espaçamento entre eles */
+    margin: 0 10px; /* Define a margem esquerda e direita para 10 pixels */
   }
   
   nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
+    color: #333; /* Define a cor do texto dos links para cinza escuro */
