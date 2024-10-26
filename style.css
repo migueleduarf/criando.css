@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', sans-serif; /* Define a fonte para Arial, caso não esteja disponível, usará sans-serif */
-    background-color: #f0f0f0; /* Define a cor de fundo para um cinza claro */
-    color: #333; /* Define a cor do texto para um cinza escuro */
+    background-color: #B9E5E8; /* Define a cor de fundo para um cinza claro */
+    color: #133E873; /* Define a cor do texto para um cinza escuro */
     line-height: 1.6; /* Define o espaçamento entre linhas para 1.6 */
     margin: 0; /* Remove as margens padrão do corpo */
     padding: 0; /* Remove o padding padrão do corpo */
   }
   
   header {
-    background-color: #fff; /* Define a cor de fundo do cabeçalho para branco */
+    background-color: #B9E5E8; /* Define a cor de fundo do cabeçalho para branco */
     padding: 20px; /* Define o padding interno para 20 pixels */
     text-align: center; /* Alinha o texto do cabeçalho para o centro */
   }
@@ -36,4 +36,4 @@ body {
   }
   
   nav a {
-    color: #333; /* Define a cor do texto dos links para cinza escuro */
+    color: #608BC1; /* Define a cor do texto dos links para cinza escuro */
